@@ -23,7 +23,6 @@
       <el-table
           stripe
           border
-          size="small"
           :data="jls"
           @selection-change="handleSelectionChange"
           style="width: 70%">
